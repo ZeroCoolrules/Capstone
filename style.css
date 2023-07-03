@@ -1,0 +1,67 @@
+body{
+  font-family: Arial;
+  background-color: #4472b0;
+}
+
+h1 {
+  color: #f0f5ef;
+}
+
+/*Header */
+header {
+/* background-color: #0e3248;*/
+ padding: 30px;
+ text-align: left;
+ font-size: 35px;
+ color: white;
+}
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 300px;
+  background: #4472b0;
+  padding: 20px;
+}
+/* Style the footer */
+footer {
+  background-color: #0e3248;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+a:link, a:visited {
+  background-color: #4472b0;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #f7b443;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
